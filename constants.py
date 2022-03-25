@@ -3,5 +3,8 @@
 # Created by Devin Jhu
 # Created on March 2022
 # The constants the game
+import random
 
-NumberAnswer = 7
+
+# a number between 1 and 9
+NumberAnswer = random.randint(1, 9)
